@@ -33,7 +33,7 @@ Every Component has `props` and that is how data is passed from a parent to a ch
 
 #### <g-emoji class="g-emoji" alias="alarm_clock" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/23f0.png">⏰</g-emoji> Activity - 3min
 
-Let's all fork this code sandbox as our starter code [Bootstrap Cards](https://codesandbox.io/s/bootstrap-cards-starter-s0dtn) in  `React Developer Tools` see if anything `props` related pops out. 
+Fork code from Sandbox [Bootstrap Cards](https://codesandbox.io/s/bootstrap-cards-starter-s0dtn) 
 
 <!-- https://codesandbox.io/s/bootstrap-solution-nero2?file=/src/App.js -->
 <!-- https://codesandbox.io/s/seir-831-bootstrap-solution-r8p9i?file=/src/App.js -->
@@ -152,7 +152,7 @@ So any attempt to change those props directly within the Component will have no 
 
 Now that we have confirmed we are being passed the value we need for title let's use it to replace the hard coded value. 
 
-Let's try and use the prop that was passed. 
+Use the prop that was passed. 
 
 ```js
 <h5 className="card-title">props.title</h5>
@@ -162,7 +162,7 @@ the result should be...
 
 <img src="https://i.imgur.com/XhKpkoR.png" width=300/>
 
-That didn't seem to work out as planned.  It seems it outputs `props.title` and not the value
+It seems it outputs `props.title` and not the value
 
  <h5 className="card-title">props.title</h5>
 
@@ -228,7 +228,7 @@ import cardsArr from './data'
 console.log('this is cardsArr:', cardsArr)
 ```
 
-:thumbsup: Click on the thumbs up when your done.
+:thumbsup: Click on the thumbs up when done.
 
 <hr>
 
